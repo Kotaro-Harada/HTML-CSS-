@@ -1,0 +1,726 @@
+main{
+    text-align: center;
+  
+}
+body, footer{
+    margin: 0;
+    
+    
+}
+a{
+    text-decoration: none;
+}
+#free:hover, header a:hover, .free2:hover, .about4:hover, .nav_course:hover, #SNS:hover{
+    opacity: 0.7;
+    transition-duration: 0.3s;
+}
+header{
+    margin-top: 22px;
+    display: flex;    
+}
+.logo{
+    margin-left: 30px;
+    position: relative;
+    width: 190px;
+    
+}
+header a{
+    color: black;
+}
+.head{
+    font-size: 11px;
+    display: flex;
+    margin: 0;
+    text-align: center;
+    justify-content: space-between;
+    width: 650px;
+    margin-right: 30px;
+}
+#hamburger{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.top_content, .about2{
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: 1050px;
+}
+.top_content_division{
+    display: flex;
+}
+.turn_out{
+    display: flex;
+    align-items: flex-end;
+}
+#free{
+    font-size: 12px;
+    background-color: #ff9900;
+    border-radius: 20px;
+    width: 150px;
+    line-height: 40px;
+    color: white;
+    height: 40px;
+}
+
+.head2{
+    height: 650px;
+    width: 100%;
+    
+    background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/top-hero.png);
+    background-size: 1400px 650px;
+    background-position: right 0;
+    background-repeat: no-repeat;
+    margin-top: -70px;
+    
+    
+}
+.head3{
+    line-height: 35px;
+}
+.black_logo{
+    margin-top: 200px;
+    max-width: 350px;
+}
+.head2 > h3{
+    margin-top: 25px;
+    line-height: 38px;
+}
+#ninety, h3 span, .color{
+    color: #ff9900;
+}
+.free2{
+    background-color: #ff9900;
+    border-radius: 30px 30px;
+    max-width: 350px;
+    line-height: 67px;
+    text-align: center;
+
+}
+#bylaws{
+    font-size: 10px;
+    color: gray;
+    height: 30px;
+    margin-top: 80px;
+    max-width: 500px;
+
+    
+}
+.about{
+    background-color: #ff9900;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+#free3{
+    color: white;
+    font-size: 16px;
+}
+.student{
+    width: 100%;
+    height: auto;
+}
+#about5{
+    color: white;
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+#about5 span{
+    font-size: 45px;
+    color: white;
+}
+.about_text{
+    color: white;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+#nav_flow{
+    color: #ff9900;
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+    letter-spacing: 3px;
+    width: 320px;
+    padding: 10px 0;
+    
+    
+}
+.about4{
+    display: flex;
+    border-radius: 50px 50px;
+    background-color: white;
+    max-width: 320px;
+    height: 65px;
+    
+}
+.about3{
+    display: flex;
+}
+.big{
+    font-size: 47px;
+    font-weight: bold;
+    padding-top: 35px;
+    margin-bottom: 0px;
+}
+.border{
+    border-top: 6px solid #ff9900;
+    width: 55px;
+    margin: auto;
+}
+#big_orange{
+    font-weight: bold;
+    color: #ff9900;
+    background-color: #fffaf0;
+    margin: 30px auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -50px;
+    font-size: 38px;
+    
+}
+#normal{
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 30px;
+}
+.appeal{
+    letter-spacing: 2px;
+    line-height: 30px;
+    font-weight: 500;
+    padding: 0 30px 30px 30px;
+
+}
+.appeal span{
+    font-size: 28px;
+    font-weight: bold;
+}
+#success{
+    font-weight: bold;
+    font-size: 26px;
+    border-bottom: 5px solid #ff9900;
+    background-color: white;
+    margin-top: 30px;
+    position: absolute;
+    max-width: 250px;
+}
+.chara{
+    width: 40px;
+}
+
+.example_people{
+    display:flex;
+    padding-top: 80px;
+    justify-content: space-around;
+    width: 1050px;
+    margin: 0 10px;
+
+}
+.example_box,.feature2_box2,.feature2_box3,.engineer_box2,.support_box2{    
+    
+    
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    margin: 20px 30px 0 30px;
+    padding: 70px auto 0 auto;
+    
+    position: relative;
+    z-index: 1;
+    border-radius: 20px;
+    
+}
+.example0,.feature2_box1,.engineer_box1,.company-icon2,.support_box1{
+    background-color: #fffaf0;
+    max-width: 1050px;
+    padding: 40px 0 30px 0;
+    margin: -27px auto 0 auto;
+    border-radius: 20px;
+}
+
+.example1{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    height: 500px;
+    margin: 0 auto 0 auto;
+    max-width: 250px;
+    
+}
+
+.success_person img{
+    width: 60px;
+    height: 60px;
+}
+.success_person{
+    display: flex;
+
+}
+.image{
+    margin: 0 15px 0 0;
+}
+.text{
+    text-align: left;
+    margin-top: 0;
+    font-size: 15px;
+}
+.feature2_box2,.feature2_box3{
+    max-width: 1050px;
+    padding: 40px 30px 70px;    
+    margin: 10px 30px 0 30px;
+    display: flex;
+    position: relative;
+    z-index: 1;
+}
+.tutorial,.globis{
+    text-align: left;
+    margin-top: 0;
+    font-size: 13px;
+    color: gray;
+    padding-right: 10px;
+
+}
+.company_comment, span{
+    font-weight: bolder;
+}
+.company_comment{
+    font-size: 19px;
+}
+.company_person{
+    width: 400px;
+    margin-right: 20px;
+}
+.engineer,.engineer2{
+    max-width:250px;
+    background-color: white;
+    margin:0 15px;
+    padding: 40px 30px;
+    border-radius: 20px;     
+}
+.engineer2{
+    padding: 10px 30px;
+    margin-top: 5px;
+}
+.engineer_box2{
+    background-color: #fffaf0;
+    padding-top: 10px;
+}
+.company_rails{
+    display: flex;
+    max-width: 260px
+}
+.grooves{
+    margin: 0 0 41px 0;
+    max-width: 250px;
+    height: 30px;
+}
+.readyfor{
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+.tutorial_inc{
+    margin: 0;
+    height: 110px;
+}
+.engineer_icon{
+    width: 60px;
+    margin-right: 10px;
+}
+.rails{
+    font-size: 19px;
+}
+.engineer_comment::before{
+    content: '';
+    position: absolute;
+    display: block;
+    z-index: 1;
+    border-style: solid;
+    border-color: #eeeeee transparent;
+    border-width: 0 10px 10px 10px;
+    top: -10px;
+    left: 13%;
+    margin-left: -10px;
+}
+.engineer_comment{
+    background-color: #eeeeee;
+    position: relative;
+    margin-top: 20px;
+    text-align:left;
+    font-size: 14px;
+    font-weight: bolder;
+    padding: 20px;
+    border-radius: 20px;    
+}
+.icon{
+    width: 170px;
+    margin: auto;
+    height: 100px;
+    float: left;
+    margin: 0 5px 0 5px;
+}
+.company-icon::after{
+    content: "";
+    display: block;
+    clear: both;
+
+}
+.company-icon{
+    background-color: white;
+    border-radius: 20px;    
+    padding: 30px 10px 0 10px;
+    margin: 40px 30px 0 30px;
+}
+.company-icon2{
+    padding: 30px 0px;
+}
+.support_box2{
+    flex-flow: column;
+    padding-top: 30px;
+    
+}
+.support{
+    float: left;
+    max-width: 100%;
+    margin-left: 30px;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: left;
+}
+.support_bylaws{
+    font-size: 12px;
+    color: gray;
+    float: left;
+    margin-top: 0px;
+    width: 200px;
+}
+.support_box1{
+    padding-bottom: 30px;
+}
+.support_contents{
+    max-width: 500px;
+    margin: 0;
+}
+li{
+    list-style-type: none;
+}
+li::before{
+    position: relative;
+    top: -2px;
+    left: -18px;
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    content: '';
+    border-radius: 100%;
+    background: black;
+    margin-right: -7px;
+}
+.course_box1{
+    background-color: #eeeeee;
+    padding-bottom: 50px;
+}
+.course_banner{
+    background-color: white;
+    max-width: 990px;
+    margin: 60px auto 30px auto;
+    padding: 30px;
+    display: flex;
+    position: relative;
+}
+.rails_course{
+    font-size: 22px;
+    color: black;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.course_box3{
+    width: 400px;
+    height: 100px;
+    border: 3px solid #ff9900;
+    border-image: linear-gradient(to right, #ff9900 0%, #ee1919 100%);
+    border-image-slice: 1;
+    padding: 20px;
+    margin: 10px 20px 10px 0;
+}
+.course_box4{
+   width: 100%;
+}
+.course1{
+    color: #ff9900;
+    font-size: 23px;
+    font-weight: bolder;
+    text-align: left;
+}
+.duration_price{
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    width: 60px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+.course_box5{
+    margin: 0 auto 0 0;
+    line-height: 45px;
+    flex-flow: column;
+}
+.five_month_44{
+    text-align: left;
+    margin-left: 15px;
+    color: black;
+    font-weight: bolder;
+}
+.course_detail{
+    font-size: 12px;
+    max-width: 1050px;
+    margin-right: 0px;
+    color: gray;
+    text-align: right;
+    font-weight: bold;
+    position: relative;
+    padding-right: 20px;
+    z-index: 1;
+}
+.course_detail::after{
+    content: "";
+    position: absolute;
+    right: 0px;
+    top: 4px;
+    width: 8px;
+    height: 8px;
+    border-top: 6px solid #ff9900;
+    border-right: 6px solid #ff9900;
+    border-width: 3px;
+    transform: rotate(45deg);
+}
+.link{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+}
+.nav_course{    
+    background-color: #ff9900;
+    border-radius: 40px;
+    margin: auto;
+    width: 300px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 5px;
+    
+   
+}
+#course5{
+    color: white;
+    font-weight: bold;
+    display: inline-block; 
+}
+.service{
+    background-color: #fffaf0;
+    padding-bottom: 50px;
+    
+}
+.message{
+    max-width : 990px;
+    display: flex;
+    margin: 30px auto 30px auto;
+    padding: 0 30px 30px 30px;
+    background: linear-gradient(to right, white 70%,#fffaf0 70%)
+}
+#message_big_orange{
+    font-weight: bold;
+    color: #ff9900;
+    font-size: 38px;
+    padding-top: 30px;
+    text-align: left;
+    padding-left: 20px;
+    margin: 0 auto -60px auto;
+    max-width: 990px;
+
+
+}
+.message_text1{
+    margin: 40px 0 20px 0px;
+    font-size: 15px;
+    text-align: left;
+    line-height: 28px;
+
+}
+.message_text2{
+    max-width: 550px;
+    padding-right: 20px;
+}   
+.potepan_CEO{
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: auto;
+    margin:auto;
+   
+}
+.miyazaki{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    max-width: 150px;
+    color: white;
+    font-weight:bold;
+    line-height: 30px;
+    font-size: 17px;
+    text-shadow: 1px 1px 2px gray;
+}
+.miyazaki2{
+    font-size:25px;
+}
+.interview{
+    max-width: 320px;
+     
+}
+.interview_img{
+    max-width: 550px;
+}
+.interview_img_box{
+    overflow: hidden;
+    margin: auto;
+    display: flex;
+    position: relative;
+    z-index: 1;
+    min-height: 320px;
+    
+}
+.interview_img_box:after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.interview_img_box:after{
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0, 0) 50%,rgb(0, 0, 0) 90%);
+}
+        
+.interview3:hover .interview_img{
+    transition-duration: 0.3s;
+    transform: scale(1.1)
+}
+.interview3:hover .interview_content, .course_banner:hover .course_detail{
+    color: #ff9900;
+    transition-duration: 0.3s;
+}
+.interview3{
+    margin: 0 auto auto auto;
+}
+.interview_name{
+    display: inline-block;
+    padding-right: 10px;
+}
+.interview_box{
+    display: flex;
+    max-width: 1050px;
+    margin: 60px auto 60px auto;
+}
+.interview2{
+    color: #ff9900;
+    font-weight: bold;
+    text-align: left;
+    margin: 0 auto 0 10px;
+    display: flex;
+    flex-flow: column;
+    position: absolute;
+    z-index: 2;
+    bottom: 10px;
+    font-size: 17px;
+    width: 95%;
+    height: auto; 
+}
+.underline{
+    border-bottom: 1px solid white;
+    max-width: auto;
+}
+.interview4{
+    z-index: 2;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    max-height: 100px;
+}
+.former_job{
+    font-size: 13px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 2px;
+    
+}
+.interview_content{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    line-height: 27px;
+    margin: 10px 0 0 0;
+    max-width: 500px;
+}
+.footer_box{
+    display: flex;
+    margin: 60px 30px 0 30px;
+    padding-top: 30px;
+}
+.footer_box2, .company_overview{
+    flex-flow: column;
+    height: auto;
+    margin: 0 auto 0 auto;
+    color: white;
+    display: flex;
+    
+}
+footer{
+    background-color: #ff9900;
+    padding-bottom: 30px;
+}
+.footer3, .footer7{
+    margin: 15px 0px;
+    color: white;
+    font-weight: bolder;
+}
+.footer7{
+    margin: auto;
+    width: 130px;
+}
+
+.footer5{
+    color: white;
+    font-weight: bolder;
+    padding-top: 18px;
+    width: 300px;
+}
+.footer6{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+}
+#SNS{
+    width: 70px;
+}
+.copyright{
+    font-size: 12px;
+}
+
+

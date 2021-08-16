@@ -1,0 +1,199 @@
+
+@media only screen and (max-width: 1500px){
+    img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 1081px){
+    .head{
+        display: none;
+    }
+    #hamburger{
+        position: relative;
+        margin: 0 0 0 auto;             
+        height: 30px;                   
+        width: 30px;                    
+    }
+    
+    .hamburger_line span{
+        position: absolute;      
+        right: 30px;              
+        width: 30px;           
+        height: 3px;             
+        background-color: black; 
+    }
+    .hamburger_line{
+        width: 40px;
+        line-height: 12px;
+    }
+}
+@media only screen and (max-width: 1070px){
+    .interview_box{
+        display: block;
+        margin: auto;
+        max-width: 600px;
+    }
+    .interview{
+        max-width:900px;
+        margin: 30px;
+    }
+    .interview_img_box{
+        max-height: 500px;
+        max-width: 600px;
+    }
+    
+
+
+}
+
+@media only screen and (max-width: 1025px){
+    .turn_out{
+        align-items: flex-start;
+        margin-left: -350px;
+        margin-top: 30px;
+    }
+    .about3{
+        display: block;
+    }
+    .about4{
+        margin: auto;
+    }
+    .message{
+        flex-direction: column;
+        background: linear-gradient(to right, white, white)
+    }
+    .potepan_CEO{
+        max-width: 400px !important;
+        width: 100%;
+        order: 1;
+        margin: 30px auto 0 auto;
+    }
+    .message_text2{
+        order: 2;
+        max-width: 990px;
+        padding: 0;
+    }
+    #message_big_orange{
+        font-size: 30px;
+        margin-bottom: -50px;
+    }
+}
+@media only screen and (min-width: 769px){
+    .sp{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .head2{
+        background-image: url(//camp.potepan.com/wp-content/themes/potepancamp/assets/images/top-hero-sp.png);
+        background-size: 670px 650px;
+        background-position: right 0;
+        background-repeat: no-repeat;
+    }
+    .turn_out{
+        margin-left: -250px;
+    }
+    .black_logo{
+        max-width: 250px;
+    }
+    .head3{
+        font-size: 13px;
+        line-height: 25px;
+    }
+    #about5 span{
+        font-size: 25px;
+    }
+    #about5{
+        font-size: 25px;
+        text-align: center;
+    }
+    .top_content{
+        padding-top: 150px;
+    }
+    #bylaws{
+        margin-top: 30px;
+    }
+    .big{
+        font-size: 30px;
+    }
+    #big_orange{
+        width: 80px;
+        height: 80px;
+        font-size: 28px;
+        margin-bottom: -40px;
+    }
+    #normal{
+        font-size: 20px;
+    }
+    .appeal{
+        font-size: 14px;
+    }
+    #ninety{
+        font-size: 20px;
+    }
+    .example_people{
+        display: block;
+    }
+    #success{
+        font-size: 17px;
+    }
+    .chara{
+        width: 25px;
+    }
+    .example1{
+        max-width: 400px;
+        margin: 0;
+    }
+    .feature2_box2,.feature2_box3{
+        display: block;
+    }
+    .company_person{
+        width: 100%;
+    }
+    .engineer_box2{
+        display: block;
+    }
+    .engineer, .engineer2{
+        margin: 10px auto;
+    }
+    .course_banner{
+        display: block;
+    }
+    .course_box3{
+        width: auto;
+        margin-right: 0;
+    }
+    .interview_name{
+        display: block;
+    }
+    .inteview4{
+        height: 100px;
+    }
+    .footer_box{
+        flex-direction: column;
+        text-align: left;
+    }
+    .company_overview{
+        order: 2;
+        margin: 0;
+    }
+    .footer_box2{
+        order: 1;
+        margin: 0;
+    }
+    .whiteline{
+        width: auto;
+        margin: 20px;
+        display: block;
+        border-bottom: 1px solid white;
+    }
+
+}
+@media only screen and (max-width: 400px){
+    .miyazaki{
+        font-size: 80%;
+    }
+}
